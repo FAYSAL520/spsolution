@@ -1,0 +1,36 @@
+.alerts {
+  padding: 20px;
+  background-color: #f44336;
+  color: white !important;
+
+}
+.alerts.error strong {
+    color: white;
+}
+
+.alerts.success strong {
+    color: white;
+}
+
+.alerts.info strong {
+    color: white;
+}
+
+.alerts.success {background-color: #00904b;}
+.alerts.info {background-color: #008eff;}
+.alerts.error {background-color: #ff1100;}
+
+.closebtns {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtns:hover {
+  color: black;
+}
