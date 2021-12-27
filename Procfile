@@ -1,1 +1,1 @@
-web: gunicorn spsolution.wsgi
+web: gunicorn devsearch.wsgi
